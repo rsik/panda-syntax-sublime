@@ -18,7 +18,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#292A2B</string>
+				<string>#111111</string>
 				<key>caret</key>
 				<string>#F8F8F0</string>
 				<key>foreground</key>
@@ -52,7 +52,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#19F9D8</string>
+				<string>#A2F78D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -156,10 +156,10 @@
 			<string>entity.other.inherited-class</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>   underline </string>
 				<key>foreground</key>
 				<string>#FFC990</string>
+				<key>fontStyle</key>
+				<string> italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -422,13 +422,167 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string></string>
+			<string>source.php source.php.embedded.block.html constant.other.php</string>
 			<key>scope</key>
-			<string>source .property-value.css parameter constant.numeric.css keyword.other.unit.css</string>
+			<string>source.php source.php.embedded.block.html constant.other.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFC990</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>source.php source.php.embedded.block.html meta.class.php entity.name.type.class.php</string>
+			<key>scope</key>
+			<string>source.php source.php.embedded.block.html meta.class.php entity.name.type.class.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFC990</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>source.php source.php.embedded.block.html variable.other.property.php</string>
+			<key>scope</key>
+			<string>source.php source.php.embedded.block.html variable.other.property.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CDCDCD</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>source.php source.php.embedded.block.html keyword.control.php</string>
+			<key>scope</key>
+			<string>source.php source.php.embedded.block.html keyword.control.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6DB1FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>source.php source.php.embedded.block.html keyword.control.php</string>
+			<key>scope</key>
+			<string>source.php source.php.embedded.block.html keyword.control.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF75B5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>source.php source.php.embedded.block.html constant.other.php</string>
+			<key>scope</key>
+			<string>source.php source.php.embedded.block.html constant.other.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> italic    </string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>source.php source.php.embedded.block.html variable.other.php</string>
+			<key>scope</key>
+			<string>source.php source.php.embedded.block.html variable.other.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CDCDCD</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>source.php source.php.embedded.block.html variable.other.php punctuation.definition.variable.php</string>
+			<key>scope</key>
+			<string>source.php source.php.embedded.block.html variable.other.php punctuation.definition.variable.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CDCDCD</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>source.php source.php.embedded.block.html meta.class.php support.class.implements.php</string>
+			<key>scope</key>
+			<string>source.php source.php.embedded.block.html meta.class.php support.class.implements.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B084EB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>source.php source.php.embedded.block.html meta.function.php meta.function.arguments.php</string>
+			<key>scope</key>
+			<string>source.php source.php.embedded.block.html meta.function.php meta.function.arguments.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>source.php source.php.embedded.block.html keyword.operator.class.php`</string>
+			<key>scope</key>
+			<string>source.php source.php.embedded.block.html keyword.operator.class.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#FFB86C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>source.php source.php.embedded.block.html keyword.operator.logical.php</string>
+			<key>scope</key>
+			<string>source.php source.php.embedded.block.html keyword.operator.logical.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFC990</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>source.php source.php.embedded.block.html support.class.php</string>
+			<key>scope</key>
+			<string>source.php source.php.embedded.block.html support.class.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>source.php source.php.embedded.block.html meta.function-call.object.php</string>
+			<key>scope</key>
+			<string>source.php source.php.embedded.block.html meta.function-call.object.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6FC1FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>text.html.mt meta.tag.sgml.html meta.tag.sgml.doctype.html</string>
+			<key>scope</key>
+			<string>text.html.mt meta.tag.sgml.html meta.tag.sgml.doctype.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF2C6D</string>
 			</dict>
 		</dict>
 	</array>
